@@ -1,0 +1,36 @@
+spring:
+  application:
+    #应用名称
+    name: Eureka-application
+    #Eureka注册中心访问权限
+  #security:
+    #user:
+     # name: admin
+     # password: admin
+    
+eureka:
+  server:
+    #enable-self-preservation: false      # 关闭自我保护模式（默认为打开）
+    eviction-interval-timer-in-ms: 5000  # 续期时间，即扫描失效服务的间隔时间（缺省为60*1000ms）
+  instance:
+    #服务注册中心实例的主机名
+    hostname: 10.0.45.103
+  client:
+    #是否向服务注册中心注册自己
+    register-with-eureka: false
+    #是否检索服务
+    fetch-registry: false
+    serviceUrl:
+      ##服务注册中心的配置内容，指定服务注册中心的位置
+      #defaultZone: http://admin:admin@${eureka.instance.hostname}:${server.port}/eureka/  # 安全的注册地址
+     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    registry-fetch-interval-seconds: 30
+    #开启客户端存活状态监测
+server:
+  #服务注册中心端口号
+  port: 8088
+
+devtools:
+  restart:
+    exclude: static/**,templates/**
+    enabled: true
