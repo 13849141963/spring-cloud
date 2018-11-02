@@ -13,23 +13,21 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    //@GetMapping("/queryAll") 等于下面的注解
-    @RequestMapping(value = "/queryAll",method = RequestMethod.GET)
-    @ResponseBody
+    @GetMapping("/queryAll") 等于下面的注解
+    //@RequestMapping(value = "/queryAll",method = RequestMethod.GET)
     public Object queryAll(){
         List<User> users = userService.queryAll();
         return users;
     }
-
-    @RequestMapping(value = "/insert",method = RequestMethod.POST)
-    @ResponseBody
+    PostMapping("/insert")
+    //@RequestMapping(value = "/insert",method = RequestMethod.POST)
     public Object insert(@RequestBody User user){
         userService.inseret(user);
         return "OK";
     }
 
-    @RequestMapping(value = "/find/{id}",method = RequestMethod.GET)
-    @ResponseBody
+    //@RequestMapping(value = "/find/{id}",method = RequestMethod.GET)
+    @GetMapping("/find/{id}") 
     public Object find(@PathVariable("id") Integer id){
         User user = userService.find(id);
         return user;
