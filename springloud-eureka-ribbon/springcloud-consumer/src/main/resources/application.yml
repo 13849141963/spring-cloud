@@ -1,0 +1,23 @@
+server:
+  port: 8989
+  tomcat:
+    uri-encoding: UTF-8
+  context-path: /springcloud-consumer
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:1111/eureka/,http://peer3:3333/eureka/,http://peer2:2222/eureka/
+
+spring:
+  application:
+    name: springcloud-consumer
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+      force: true
+
+client:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
