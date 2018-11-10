@@ -1,0 +1,2 @@
+1.springcloud-config-mybatis-mysql 就是从springcloud-config-server中获取github上的mysql,myabtis相关属性进行操作数据库
+2.springcloud-config-stand-alone eureka集群config在eureka注册,客户端进行调用
