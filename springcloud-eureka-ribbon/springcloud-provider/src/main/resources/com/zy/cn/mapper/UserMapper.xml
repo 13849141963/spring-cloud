@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zy.cn.dao.UserDAO">
+
+    <sql id="BaseSql">
+      SELECT ID,NAME,AGE,BIRTHDAY FROM USER
+    </sql>
+
+
+    <insert id="insert" parameterType="user">
+        insert into USER values(#{id,jdbcType=INTEGER},#{name},#{age},#{birthday,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="update" parameterType="user">
+        update USER set Name = #{name,jdbcType=VARCHAR}, AGE = #{age,jdbcType=INTEGER},BIRTHDAY = #{birthday,jdbcType=TIMESTAMP} WHERE id=#{id}
+    </update>
+
+
+    <delete id="delete" parameterType="int">
+        DELETE FROM USER WHERE ID =#{id}
+    </delete>
+
+    <select id="queryAll" resultType="user">
+        <include refid="BaseSql"/>
+    </select>
+
+    <select id="find" parameterType="int" resultType="user">
+        <include refid="BaseSql"/> WHERE  ID =#{id}
+    </select>
+
+
+    <!--按照名字模糊查询并支持分页查询-->
+    <select id="query" parameterType="java.util.Map" resultType="user">
+        <include refid="BaseSql"/>
+        <where>
+            <if test="id != null">
+                AND ID = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND NAME  like concat('%', #{name}, '%')
+            </if>
+            <if test="age != null">
+                AND AGE = #{age}
+            </if>
+            <if test="birthday != null">
+                AND BIRTHDAY = #{birthday}
+            </if>
+        </where>
+        LIMIT #{pageNow},#{pageSize}
+    </select>
+    <!--ORDER BY BIRTHDAY DESC-->
+    <!--/*       like '%' #{name} '%'      */-->
+
+</mapper>

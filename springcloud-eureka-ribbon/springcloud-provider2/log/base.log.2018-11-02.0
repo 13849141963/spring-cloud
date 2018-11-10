@@ -1,0 +1,99 @@
+2018-11-02 08:45:15,288 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 08:45:15,315 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 08:45:15,347 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 08:45:15,350 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER WHERE ID =? 
+2018-11-02 08:45:15,350 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-02 08:45:15,352 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-02 08:47:46,119 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 08:47:46,142 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 08:47:46,166 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 08:47:46,168 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER WHERE ID =? 
+2018-11-02 08:47:46,169 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 10(Integer)
+2018-11-02 08:47:46,170 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-02 15:43:06,032 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:43:06,046 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:43:06,057 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:43:49,611 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:43:49,624 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:43:49,634 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:45:18,109 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:45:18,110 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:45:18,116 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:49:21,637 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:49:21,639 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:49:21,642 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:52:13,228 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:52:13,230 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:52:13,236 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:53:01,288 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:53:01,289 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:53:01,292 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:56:22,218 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:56:22,231 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:56:22,241 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:56:38,849 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:56:38,851 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:56:38,859 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:27,205 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:27,218 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:27,230 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:31,042 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:31,043 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:31,053 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:31,739 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:31,741 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:31,747 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:32,035 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:32,036 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:32,039 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:32,358 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:32,359 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:32,362 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:32,680 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:32,680 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:32,682 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:33,003 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:33,004 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:33,007 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:33,296 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:33,297 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:33,298 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:33,644 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:33,645 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:33,649 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:33,964 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:33,965 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:33,967 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:34,464 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:34,465 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:34,467 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:34,831 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:34,833 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:34,837 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:35,146 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:35,146 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:35,149 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:58:35,711 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 15:58:35,712 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 15:58:35,714 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 15:59:27,912 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER WHERE ID =? 
+2018-11-02 15:59:27,917 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-02 15:59:27,928 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-02 16:04:08,918 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER WHERE ID =? 
+2018-11-02 16:04:08,919 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-02 16:04:08,922 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-02 19:35:45,060 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER WHERE ID =? 
+2018-11-02 19:35:45,103 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-02 19:35:45,134 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-02 19:36:25,170 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 19:36:25,172 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 19:36:25,178 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 19:37:28,231 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER 
+2018-11-02 19:37:28,232 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-11-02 19:37:28,236 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 10
+2018-11-02 19:37:58,241 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER WHERE ID =? 
+2018-11-02 19:37:58,242 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-02 19:37:58,243 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-11-02 19:39:21,869 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT ID,NAME,AGE,BIRTHDAY FROM USER WHERE ID =? 
+2018-11-02 19:39:21,872 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer)
+2018-11-02 19:39:21,877 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
